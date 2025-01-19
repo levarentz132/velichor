@@ -203,36 +203,13 @@ HTML;
             background-color: #0056b3;
         }
     </style>
-    <script src="https://cdn.tiny.cloud/1/93nqv6c1faj7ca42orcog3kyfn3ijiw0k0mob9b3uolqi5jp/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
-    <script>
-        // Initialize TinyMCE
-        tinymce.init({
-    selector: '#content', // Target your textarea
-    plugins: 'advlist autolink lists link image charmap print preview anchor',
-    toolbar: 'bold italic underline | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image',
-    forced_root_block: false, // Disable automatic <p> wrapping
-    height: 300,
-    setup: function (editor) {
-        editor.on('change', function () {
-            tinymce.triggerSave(); // Save content to <textarea>
-        });
-    }
-});
-
-
-
-        // Save TinyMCE content to the textarea before submitting the form
-        document.querySelector('form').addEventListener('submit', function () {
-            tinymce.triggerSave();
-        });
-    </script>
 </head>
 
 <body>
     <div class="form-container">
         <h1>Create a New Blog</h1>
-        <form method="POST" enctype="multipart/form-data" onsubmit="tinymce.triggerSave();">
-        <div class="form-group">
+        <form method="POST" enctype="multipart/form-data">
+            <div class="form-group">
                 <label for="folder">Select Folder:</label>
                 <select class="form-control" name="folder" id="folder" required>
                     <option value="pendidikan">Pendidikan</option>
@@ -253,8 +230,7 @@ HTML;
             <!-- Content Field with TinyMCE -->
             <div class="form-group">
                 <label for="content">Content:</label>
-                <textarea class="form-control" id="content" name="content" placeholder="Enter blog content" rows="6"
-                    ></textarea>
+                <textarea class="form-control" id="content" name="content" placeholder="Enter blog content" rows="6"></textarea>
             </div>
             <div class="form-group">
                 <label for="image">Upload Image:</label>
