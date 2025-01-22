@@ -1,4 +1,9 @@
 <?php
+require_once '../config.php';
+
+// Restrict access to logged-in users
+requireLogin();
+
 // Define base paths
 $articles_path = __DIR__ . '/articles/';
 $json_path = __DIR__ . '/data/articles.json';
@@ -86,7 +91,7 @@ PHP;
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Article</title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
 </head>
 
 <body>
