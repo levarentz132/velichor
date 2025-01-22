@@ -10,9 +10,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/main.php';
                 <div class="col-lg-8 mb-5 mb-lg-0">
                     <div class="blog_left_sidebar">
                         <?php
-                        $link = '/berita/pendidikan/';
+                        $link = '/berita/psikologi/';
                         // Load news data from JSON file
-                        $file = $_SERVER['DOCUMENT_ROOT'] . '/data/news_pendidikan.json';
+                        $file = $_SERVER['DOCUMENT_ROOT'] . '/data/news_psikologi.json';
                         if (file_exists($file)) {
                             $newsData = json_decode(file_get_contents($file), true);
                         

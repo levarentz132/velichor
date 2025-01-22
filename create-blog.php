@@ -10,6 +10,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $content = $_POST['content'] ?? '';
     $image = $_FILES['image'] ?? null;
 
+    $json_path = __DIR__ . '/data/news_' . $folder . '.json';
+
     // Validate inputs
     if (!preg_match('/^[a-zA-Z0-9_-]+$/', $folder) || !preg_match('/^[a-zA-Z0-9_-]+$/', $filename)) {
         echo "Invalid folder or filename. Only alphanumeric characters, dashes, and underscores are allowed.";
@@ -27,7 +29,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         mkdir($target_folder, 0755, true);
     }
 
-    // Handle image upload
     // Handle image upload
     $image_url = '';
     if ($image && $image['error'] === 0) {
@@ -155,8 +156,24 @@ HTML;
 
     // Write to the new file
     file_put_contents($file_path, $template);
+    $json_data = file_exists($json_path) ? json_decode(file_get_contents($json_path), true) : [];
 
-    echo "Blog created successfully! <a href='/berita/$folder/$filename.php'>View it here</a>";
+// Add the new entry
+$json_data[] = [
+    'folder' => $folder,
+    'filename' => $filename,
+    'title' => $title,
+    'content' => $content,
+    'image' => $image_url,
+    'date' => date('Y-m-d'), // Add creation date
+];
+
+// Save the updated JSON data back to the file
+if (file_put_contents($json_path, json_encode($json_data, JSON_PRETTY_PRINT))) {
+    echo "Blog and JSON updated successfully! <a href='/berita/$folder/$filename.php'>View it here</a>";
+} else {
+    echo "Blog created but failed to update JSON.";
+}
 }
 ?>
 
@@ -213,8 +230,15 @@ HTML;
                 <label for="folder">Select Folder:</label>
                 <select class="form-control" name="folder" id="folder" required>
                     <option value="pendidikan">Pendidikan</option>
+                    <option value="psikologi">Psikologi</option>
                     <option value="teknologi">Teknologi</option>
                     <option value="ekonomi">Ekonomi</option>
+                    <option value="olahraga">Olahraga</option>
+                    <option value="seni">Seni</option>
+                    <option value="hukum">Hukum</option>
+                    <option value="alam">Pengetahuan Alam</option>
+
+
                     <!-- Add more folders as needed -->
                 </select>
             </div>

@@ -12,7 +12,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/main.php';
                         <?php
                         $link = '/berita/pendidikan/';
                         // Load news data from JSON file
-                        $file = $_SERVER['DOCUMENT_ROOT'] . '/data/news_pendidikan.json';
+                        $file = $_SERVER['DOCUMENT_ROOT'] . '/data/news_seni.json';
                         if (file_exists($file)) {
                             $newsData = json_decode(file_get_contents($file), true);
                         
