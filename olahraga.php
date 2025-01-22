@@ -10,6 +10,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/main.php';
                 <div class="col-lg-8 mb-5 mb-lg-0">
                     <div class="blog_left_sidebar">
                         <?php
+                        $link = '/berita/olahraga/';
                         // Load news data from JSON file
                         $file = $_SERVER['DOCUMENT_ROOT'] . '/data/news_olahraga.json';
                         if (file_exists($file)) {
@@ -27,8 +28,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/main.php';
                                             </a>
                                         </div>
                                         <div class="blog_details">
-                                            <a class="d-inline-block" href="#">
-                                                <h2>' . htmlspecialchars($news['title']) . '</h2>
+                                            <a class="d-inline-block" href='. htmlspecialchars($link) . htmlspecialchars($news['filename']). ".php".'>
+                                                <h2>' . htmlspecialchars($news['title']) . "php".'</h2>
                                             </a>
                                             <p>' . htmlspecialchars($news['content']) . '</p>
                                         </div>
