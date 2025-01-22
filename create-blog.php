@@ -1,17 +1,4 @@
 <?php
-require_once '../config.php';
-
-// Start a session if not already started
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-}
-
-// Redirect to login if not authenticated
-if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
-    header('Location: login.php');
-    exit;
-}
-
 // Define the base path for the berita directory
 $berita_path = __DIR__ . '/berita/';
 
@@ -197,7 +184,7 @@ if (file_put_contents($json_path, json_encode($json_data, JSON_PRETTY_PRINT))) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Blog</title>
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
