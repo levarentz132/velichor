@@ -75,13 +75,13 @@
                                             <li><a>Berita</a>
                                                 <ul class="submenu">
                                                     <li><a href="/pendidikan.php">Pendidikan</a></li>
-                                                    <li><a href="/category/psikolog.php">Psikologi</a></li>
-                                                    <li><a href="#">Ekonomi</a></li>
-                                                    <li><a href="#">Teknik</a></li>
-                                                    <li><a href="#">Olahraga</a></li>
-                                                    <li><a href="#">Seni</a></li>
-                                                    <li><a href="#">Hukum</a></li>
-                                                    <li><a href="#">Matematika dan Pengetahuan Alam </a></li>
+                                                    <li><a href="/psikolog.php">Psikologi</a></li>
+                                                    <li><a href="/ekonomi.php">Ekonomi</a></li>
+                                                    <li><a href="/teknik.php">Teknik</a></li>
+                                                    <li><a href="/olahraga.php">Olahraga</a></li>
+                                                    <li><a href="/seni.php">Seni</a></li>
+                                                    <li><a href="/hukum.php">Hukum</a></li>
+                                                    <li><a href="/alam.php">Matematika dan Pengetahuan Alam </a></li>
                                                 </ul>
                                               </li>
                                             <li><a href="/artikel.php">Artikel</a></li>
