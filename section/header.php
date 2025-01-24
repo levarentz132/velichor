@@ -75,7 +75,7 @@
                                             <li><a>Berita</a>
                                                 <ul class="submenu">
                                                     <li><a href="/pendidikan.php">Pendidikan</a></li>
-                                                    <li><a href="/psikolog.php">Psikologi</a></li>
+                                                    <li><a href="/psikologi.php">Psikologi</a></li>
                                                     <li><a href="/ekonomi.php">Ekonomi</a></li>
                                                     <li><a href="/teknik.php">Teknik</a></li>
                                                     <li><a href="/olahraga.php">Olahraga</a></li>
