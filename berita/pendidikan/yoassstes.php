@@ -28,13 +28,30 @@ include BASE_PATH . '/main.php';
                     <div class="col-lg-8">
                         <div class="about-right mb-90">
                             <div class="about-img">
-                                <img src="/berita/teknologi/679092040dff4.webp" alt="Blog Image">
+                                <img src="/berita/pendidikan/679b7ec9d5bb8.png" alt="Blog Image">
                             </div>
                             <div class="section-tittle mb-30 pt-30">
-                                <h3>zxzxz</h3>
+                                <h3>YOAS SUKA NGETES</h3>
                             </div>
                             <div class="about-prea text-dark">
-                                <p class="about-pera1 mb-25">xzzxzxzxxz</p>
+                                <p class="about-pera1 mb-25">Lembaga Akreditasi Mandiri Kependidikan (LAMDIK) lakukan Asesmen Lapangan (AL), untuk akreditasi Program Studi Bimbingan Konseling (Prodi BK), Fakultas Ilmu Pendidikan dan Psikologi (FIPP) Universitas Negeri Manado (Unima). Kegiatan berlangsung selama dua hari di Ruang Prodi BK pada Jumat-Sabtu (8-9/11/2024).
+<br>
+Dekan FIPP Unima, Prof. Dr. Harol R. Lumapow, M.Pd., menyampaikan harapannya bahwa dari asesmen ini dapat meningkatkan akreditasi prodi Bimbingan Konseling FIPP Unima dari akreditasi B yang telah dicapai sebelumnya, serta memperkuat kepercayaan publik. 
+<br>
+“Apalah artinya kuliah namun prodinya tidak terakreditasi, itu yang menjadi suatu kebanggaan kami bahwa Bimbingan Konseling juga sudah diberi kesempatan dan kami berkeyakinan hasilnya juga pasti akan baik,” ucap Prof. Harol.
+<br>
+Tim asesor LAMDIK yang hadir beranggotakan dua orang, yakni Prof. Dr. Raden Partino, M.Pd., dan Prof. Dr. Budi Purwoko, M.Pd., turut menyampaikan maksud kedatangan dan tujuan mereka, di mana sebagai perpanjangan tangan dari LAMDIK yang ditugaskan untuk menindaklanjuti hasil Asesmen Kecukupan Akademik (AKA) pada prodi Bimbingan Konseling FIPP Unima.
+<br>
+“Kami berdua ini perpanjangan tangan dari LAMDIK yang ditugaskan untuk menindaklanjuti hasil Asesmen Kecukupan Akademik. AKA yang kami review itu perlu dikonfirmasi kebenarannya di lapangan, makanya kami lakukan Asesmen Lapangan,” tutur Prof. Raden.
+<br>
+Prodi Bimbingan Konseling juga menyambut kedatangan tim asesor dari LAMDIK dengan mempersiapkan berkas hingga pembentukan tim akreditasi. 
+<br>
+“Banyak hal yang perlu dipersiapkan untuk menyambut tim akreditasi, dan berkas yang berkaitan dengan AL itu sangat diprioritaskan,” ungkap Drs. Djailan Mansur, M.Pd.
+<br>
+Diketahui, pada saat pembukaan kegiatan dihadiri oleh Wakil Rektor I Unima, Dekan FIPP, dan seluruh jajaran pejabat Fakultas Ilmu Pendidikan dan Psikologi.
+<br>
+<h6>Reporter : Yoas Telaumbanua</h6> 
+</p>
                             </div>
                         </div>
                     </div>

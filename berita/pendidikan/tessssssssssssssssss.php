@@ -28,13 +28,16 @@ include BASE_PATH . '/main.php';
                     <div class="col-lg-8">
                         <div class="about-right mb-90">
                             <div class="about-img">
-                                <img src="/berita/teknologi/679092040dff4.webp" alt="Blog Image">
+                                <img src="/berita/pendidikan/679b30a2745e6.png" alt="Blog Image">
                             </div>
                             <div class="section-tittle mb-30 pt-30">
-                                <h3>zxzxz</h3>
+                                <h3>coba</h3>
                             </div>
                             <div class="about-prea text-dark">
-                                <p class="about-pera1 mb-25">xzzxzxzxxz</p>
+                                <p class="about-pera1 mb-25">asfgaikhsfaslujgbcvaikfhasifghaskhjgfa;jklgvaldhjga
+<br>
+uioaslfhgakhjsdfalujhsfalshugfasluhfg
+<br></p>
                             </div>
                         </div>
                     </div>

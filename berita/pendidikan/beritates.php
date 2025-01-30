@@ -28,13 +28,26 @@ include BASE_PATH . '/main.php';
                     <div class="col-lg-8">
                         <div class="about-right mb-90">
                             <div class="about-img">
-                                <img src="/berita/teknologi/679092040dff4.webp" alt="Blog Image">
+                                <img src="/berita/pendidikan/679b2b683c9e7.png" alt="Blog Image">
                             </div>
                             <div class="section-tittle mb-30 pt-30">
-                                <h3>zxzxz</h3>
+                                <h3>Rektor Unima Terpilih, Joseph Kambey: Saya Berkomitmen Memajukan Unima agar Berdaya Saing Global</h3>
                             </div>
                             <div class="about-prea text-dark">
-                                <p class="about-pera1 mb-25">xzzxzxzxxz</p>
+                                <p class="about-pera1 mb-25">Dr. Joseph Philip Kambey., S.E.,MBA.,AK, telah resmi terpilih sebagai Rektor Universitas Negeri Manado (Unima) untuk masa jabatan 2025-2029. Proses pemilihan ini berjalan lancar dan demokratis berlangsung pada Kamis, (23/01/2025).
+
+Dilansir dari Gawai.co, Ketua Panitia Pemilihan Rektor (Pilrek) Unima, Prof. Dr. Joulanda Rawis, M.Pd, melalui Sekretaris Panitia, Dr. Fredrik Alfrets Makadada, M.Kes., AIFO, menjelaskan hasil akhir pemungutan suara.
+
+“Dr. Joseph Philip Kambey mendapatkan dukungan tertinggi dengan 28 suara. Di urutan kedua, Dr. Recky Harold Elby Sendouw memperoleh dukungan sebanyak 14 suara, dan Dr. Ignatius Javier Couturier Tuerah memperoleh 6 suara,” ungkapnya.
+
+Setelah terpilih, Dr. Kambey mengungkapkan rasa syukur atas kepercayaan yang diberikan kepadanya. “Terima kasih kepada Tuhan atas penyertaan-Nya sehingga saya dapat terpilih sebagai Rektor Unima. Ini adalah kepercayaan  besar yang akan saya jalankan dengan penuh tanggung jawab,” ujarnya.
+
+Ia juga menyampaikan apresiasi kepada seluruh pihak yang mendukung jalannya pemilihan ini. “Saya berkomitmen untuk terus memajukan Unima agar semakin berprestasi, inovatif, dan mampu bersaing secara global,” tambahnya.
+
+Pilrek Unima 2025 ini berlangsung tanpa hambatan, meskipun 35 persen suara Menteri tidak digunakan sesuai surat resmi yang dibacakan dalam rapat Senat. Keputusan tersebut tidak memengaruhi jalannya pemilihan, yang tetap berjalan aman dan lancar.
+
+Terpilihnya Dr. Joseph Philip Kambey sebagai Rektor Unima diharapkan dapat membawa perubahan signifikan dalam dunia pendidikan, khususnya dalam mencetak generasi muda yang unggul dan berdaya saing tinggi.
+</p>
                             </div>
                         </div>
                     </div>
